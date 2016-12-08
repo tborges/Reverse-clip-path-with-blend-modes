@@ -1,0 +1,36 @@
+html {
+  min-height: 100%;
+  background: #B8BEB4;
+  background: -webkit-radial-gradient(#b8beb4, #71685f);
+  background: radial-gradient(#b8beb4, #71685f);
+  background-size: cover;
+}
+
+.triangle {
+  -webkit-clip-path: url(#cp);
+          clip-path: url(#cp);
+  width: 50vw;
+  height: 50vw;
+  max-height: 75vh;
+  max-width: 75vh;
+  background-size: cover;
+  background-blend-mode: screen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.first {
+  background-color: #C5075C;
+  background-image: url("https://i.chzbgr.com/full/3577340416/h99F5FC7E/");
+  -webkit-transform: translateX(-65%) translateY(-50%);
+          transform: translateX(-65%) translateY(-50%);
+}
+
+.second {
+  background-color: #03B897;
+  background-image: url("https://media.giphy.com/media/3o72F2BDkfXnUgofWU/giphy.gif");
+  -webkit-transform: translateX(-35%) translateY(-50%);
+          transform: translateX(-35%) translateY(-50%);
+  opacity: 0.8;
+}
